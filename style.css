@@ -1,0 +1,36 @@
+.navbar-nav > li{
+    padding-left:8px;
+    padding-right:8px;
+  }
+  body {
+    background-color: #fde9df;
+    padding-top: 50px;
+}
+.login-form {
+    width: 300px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+
+  }
+  .movie-card {
+      margin-bottom: 20px;
+  }
+  .movie-poster {
+      height: 300px;
+      object-fit: cover;
+
+  }
+
+  #contactApp {
+    position: absolute;
+    align-items: center;
+    top: 35%;
+    left: 40%;
+  }
+
