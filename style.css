@@ -34,3 +34,7 @@
     left: 40%;
   }
 
+.carousel-container {
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto; /* Center the carousel horizontally */
+  }
