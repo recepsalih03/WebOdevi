@@ -17,7 +17,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="./Anasayfa.html" cl-4>Anasayfa</a>
+            <a class="nav-link" href="./index.html" cl-4>Anasayfa</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./Ozgecmis.html" cl-4>Özgeçmiş</a>
@@ -46,9 +46,17 @@
         </div>
         <div class="overflow-hidden" style="max-height: 30vh;">
           <div class="container px-5">
-            <img src="./wave-hi.gif" class="img-fluid border rounded-3 shadow-lg mb-4" width="300" onclick="stopGif(this)" >
+            <img src="./wave-hi.gif" class="img-fluid border rounded-3 shadow-lg mb-4" width="200" onclick="stopGif(this)" >
           </div>
         </div>
       </div>
+      <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var username = 'G221210016';
+            if (username) {
+                alert('Hoşgeldin ' + username + '!');
+            }
+        });
+    </script>
 </body>
 </html>
