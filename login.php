@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
     if (strcasecmp($username, $correctUsername) == 0 && $password == $correctPassword) {
-        header('Location: ./Anasayfa.html');
+        header('Location: ./index.html');
         exit();
     } else {
         echo "<script>alert('Login failed');</script>";
